@@ -1,0 +1,18 @@
+{
+  "name": "rn-image-viewer",
+  "version": "1.0.0",
+  "description": "A react native image viewer",
+  "main": "index.js",
+  "author": "Alan <a2n> Bouteiller <a2n.dev@pm.me>",
+  "license": "GPL-3.0+",
+  "private": false,
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.46.0",
+    "@typescript-eslint/parser": "^5.46.0",
+    "eslint": "^8.29.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.1",
+    "typescript": "^4.9.4"
+  }
+}
