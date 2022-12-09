@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { Animated, LayoutChangeEvent, PanResponder, StyleSheet, View } from 'react-native';
 import styles from './zoom.style';
 import { ICenterOn, ImageZoomProps, ImageZoomState } from './zoom.type';
@@ -99,7 +99,7 @@ export default class ImageViewer extends React.Component<ImageZoomProps, ImageZo
         clearTimeout(this.longPressTimeout);
       }
       const { locationX, locationY, pageX, pageY } = evt.nativeEvent;
-      this.longPressTimeout = setTimeout(() => {
+      this.longPressTimeout = window.setTimeout(() => {
         this.isLongPress = true;
         if (this.props.onLongPress) {
           this.props.onLongPress({ locationX, locationY, pageX, pageY });
@@ -439,7 +439,7 @@ export default class ImageViewer extends React.Component<ImageZoomProps, ImageZo
       const { locationX, locationY, pageX, pageY } = evt.nativeEvent;
 
       if (evt.nativeEvent.changedTouches.length === 1 && moveDistance < (this.props.clickDistance || 0)) {
-        this.singleClickTimeout = setTimeout(() => {
+        this.singleClickTimeout = window.setTimeout(() => {
           if (this.props.onClick) {
             this.props.onClick({ locationX, locationY, pageX, pageY });
           }

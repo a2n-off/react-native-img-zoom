@@ -2,10 +2,14 @@
   "name": "rn-image-viewer",
   "version": "1.0.0",
   "description": "A react native image viewer",
-  "main": "index.js",
+  "main": "built/index.js",
+  "types": "built/index.d.ts",
   "author": "Alan <a2n> Bouteiller <a2n.dev@pm.me>",
   "license": "GPL-3.0+",
   "private": false,
+  "scripts": {
+    "build": "rm -rf built && tsc"
+  },
   "peerDependencies": {
     "react": "*",
     "react-native": "*"

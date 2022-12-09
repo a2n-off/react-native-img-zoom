@@ -1,3 +1,4 @@
+import { ReactComponentElement, ReactElement } from 'react';
 import {
   GestureResponderEvent,
   PanResponderGestureState,
@@ -28,6 +29,8 @@ export interface IOnClick {
 }
 
 export class ImageZoomProps {
+  public children: ReactElement | undefined;
+
   /**
    * 操作区域宽度
    */
