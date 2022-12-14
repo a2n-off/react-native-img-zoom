@@ -1,11 +1,11 @@
 {
-  "name": "rn-image-viewer",
+  "name": "react-native-img-zoom",
   "version": "1.0.0",
-  "description": "A react native image viewer",
+  "description": "A react native image zoom",
   "main": "built/index.js",
   "types": "built/index.d.ts",
   "author": "Alan <a2n> Bouteiller <a2n.dev@pm.me>",
-  "license": "GPL-3.0+",
+  "license": "MIT",
   "private": false,
   "scripts": {
     "build": "rm -rf built && tsc"
