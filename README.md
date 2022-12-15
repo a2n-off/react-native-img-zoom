@@ -44,7 +44,7 @@ Do not hesitate to open a pr or an issue. I reply when I can.
 ## Want to support my work?
 
 - [Give me a tips](https://ko-fi.com/a2n00)
-- [Give a star on github](https://github.com/bouteillerAlan/appcounter)
+- [Give a star on github](https://github.com/bouteillerAlan/react-native-img-zoom)
 - Or just participate to the developement :D
 
 ### Thanks !
